@@ -44,12 +44,20 @@ body {
     color: #121212;
 
     &__title {
-        font-size: 2.6rem;
+        font-size: 2.4rem;
+
+        @media screen and (min-width: 996px) {     
+            font-size: 2.6rem;
+        }
     }
 
     &__text {
         line-height: 26px;
-        margin: 2.7rem 0 2.2rem;
+        margin: 1.5rem 0 2.2rem;
+
+        @media screen and (min-width: 996px) {     
+            margin-top: 2.7rem
+        }
     }
 
     &__button {

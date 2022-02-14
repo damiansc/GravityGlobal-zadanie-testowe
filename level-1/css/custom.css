@@ -25,12 +25,12 @@ body {
 }
 
   .box-description__title {
-    font-size: 2.6rem;
+    font-size: 2.4rem;
   }
 
   .box-description__text {
     line-height: 26px;
-    margin: 2.7rem 0 2.2rem;
+    margin: 1.5rem 0 2.2rem;
   }
 
   .box-description__button {
@@ -54,5 +54,13 @@ body {
 
   .box-description {
     max-width: 350px;
+  }
+
+  .box-description__title {
+    font-size: 2.6rem;
+  }
+
+  .box-description__text {
+    margin-top: 2.7rem
   }
 }
