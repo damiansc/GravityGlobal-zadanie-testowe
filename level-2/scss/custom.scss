@@ -27,8 +27,6 @@ body {
 }
   
 .box {
-    min-height: 408px;
-
     @media screen and (min-width: 996px) {
         margin: 0 -15px
     }
@@ -56,7 +54,7 @@ body {
         margin: 1.5rem 0 2.2rem;
 
         @media screen and (min-width: 996px) {     
-            margin-top: 2.7rem
+            margin-top: 2.2rem
         }
     }
 
@@ -74,5 +72,6 @@ body {
 
     @media screen and (min-width: 996px) {     
         max-width: 350px;
+        min-height: 408px;
     }
 }
