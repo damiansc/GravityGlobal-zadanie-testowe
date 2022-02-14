@@ -10,39 +10,61 @@
 @import "mixins";
 @import "root";
 @import "reboot";
-@import "type";
-@import "images";
-@import "code";
 @import "grid";
-@import "tables";
-@import "forms";
 @import "buttons";
 @import "transitions";
-@import "dropdown";
-@import "button-group";
-@import "input-group";
-@import "custom-forms";
-@import "nav";
-@import "navbar";
-@import "card";
-@import "breadcrumb";
-@import "pagination";
-@import "badge";
-@import "jumbotron";
-@import "alert";
-@import "progress";
-@import "media";
-@import "list-group";
-@import "close";
-@import "toasts";
-@import "modal";
 @import "tooltip";
-@import "popover";
-@import "carousel";
-@import "spinners";
 @import "utilities";
-@import "print";
 
 body {
-    color: $blue
+    background-color: #F0F0F0;
+    font-family: "Roboto", sans-serif;
+}
+  
+.container > .row {
+    min-height: 100vh;
+    align-items: center;
+}
+  
+.box {
+    min-height: 408px;
+
+    @media screen and (min-width: 996px) {
+        margin: 0 -15px
+    }
+}
+  
+.box-image {
+    &__image {
+        object-fit: cover;
+    }
+}
+  
+.box-description {
+    color: #121212;
+
+    &__title {
+        font-size: 2.6rem;
+    }
+
+    &__text {
+        line-height: 26px;
+        margin: 2.7rem 0 2.2rem;
+    }
+
+    &__button {
+        background-color: #E4C1AE;
+        border: none;
+        border-radius: 5rem;
+        height: 47px;
+        min-width: 135px;
+
+        &:hover, &:active, &:focus, &:not(:disabled):not(.disabled):active {
+            background-color: #d4b3a1;
+        }
+    }
+
+    @media screen and (min-width: 996px) {     
+        max-width: 350px;
+    }
 }

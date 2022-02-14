@@ -1,0 +1,58 @@
+body {
+  background-color: #F0F0F0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container > .row {
+  min-height: 100vh;
+  align-items: center;
+}
+
+.box {
+  min-height: 408px;
+}
+
+.box-image {
+  
+}
+
+  .box-image__image {
+    object-fit: cover;
+  }
+
+.box-description {
+  color: #121212;
+}
+
+  .box-description__title {
+    font-size: 2.6rem;
+  }
+
+  .box-description__text {
+    line-height: 26px;
+    margin: 2.7rem 0 2.2rem;
+  }
+
+  .box-description__button {
+    background-color: #E4C1AE;
+    border: none;
+    border-radius: 5rem;
+    height: 47px;
+    min-width: 135px;
+  }
+
+  .box-description__button:hover {
+    background-color: #d4b3a1;
+  }
+
+/* Responsive for min 996px */
+
+@media screen and (min-width: 996px) {
+  .box {
+    margin: 0 -15px
+  }
+
+  .box-description {
+    max-width: 350px;
+  }
+}
